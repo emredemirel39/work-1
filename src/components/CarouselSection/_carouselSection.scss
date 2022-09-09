@@ -1,0 +1,47 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    position: relative;
+
+    &__title{
+
+    }
+
+    &__desktop-container{
+        // width: 360px;
+        // height: 310px;
+        width: 100%;
+        max-width: 1730px;
+        position: absolute;
+        top: 75px;
+        left: 40px;
+        transform: translate(-50%, -50);
+    }
+
+    &__desktop-test{
+        width: 100%;
+        height: 310px;
+        overflow: hidden;
+    }
+
+    &__desktop-slider-row{
+        display: flex;
+        width: 2860px;
+        gap: 20px;
+        //transform: translateX(-100px);
+
+        
+    }
+
+    &__desktop-slider-col{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        position: relative;
+    }
+
+    
+}

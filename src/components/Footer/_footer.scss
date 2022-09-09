@@ -1,0 +1,58 @@
+@import '../../style/mixins';
+
+.footer{
+    margin-top: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include desktop() {
+        margin-top: 114px;
+    }
+
+    &__title{
+        text-align: center;
+
+        h4{
+            font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 14px;
+                /* identical to box height, or 81% */
+            
+                text-align: center;
+            
+                color: #434343;
+            
+                opacity: 0.4;
+        }
+    }
+
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 23px;
+
+        a{
+            font-weight: 500;
+                font-size: 18px;
+                line-height: 14px;
+                /* identical to box height, or 81% */
+            
+                text-align: right;
+            
+                color: #48494B;
+        }
+    }
+
+    &__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-top: 16px;
+        margin-bottom: 25px;
+    }
+}
