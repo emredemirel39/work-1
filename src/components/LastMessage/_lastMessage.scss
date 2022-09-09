@@ -5,6 +5,16 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin-top: 142px;
+
+    @media (min-width:560px) {
+
+        margin-top: 42px;
+    }
+
+    @include desktop() {
+        margin-top: 60px;
+    }
 
     &__title{
         display: flex;
